@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fundamentos do HTML</title>
 </head>
-<body>
+<body style="margin-bottom: 1000px">
     <p>Iniciando os fundamentos</p>
     <!-- aqui é o meu título principal -->
     
@@ -44,6 +44,107 @@
     <div class="secao-secundaria"> Seção secundária 2</div>
     <div class="secao-secundaria">Seção Secundária 3</div>
     
-    <img src="" alt="">
+    <!-- alt => acessibilidade -->
+    <div> <img src="img/img1.jpg" alt="Um Castelo na Europa"></div>
+   
+    
+    <!-- Imagem externa -->
+   <div> <img src="https://w7.pngwing.com/pngs/4/808/png-transparent-css3-css3-logo-logo-language-programming-language-css-3d-icon-thumbnail.png" alt="logo do css">
+   </div>
+    <!-- Listas -->
+    <!-- Ol => Ordered -->
+    <ol>
+    <li>Iniciar o computador</li>
+    <li>Abrir o Navegador</li>
+    <li>Acessar o site desejado</li>
+    </ol>
+    
+    <!-- Ul = Unordered -->
+    <ul>
+        <li>Maçã</li>
+        <li>Abacaxi</li>
+        <li>Banana</li>
+    </ul>
+    <!-- aninhamento -->
+    <ul>
+        <li>Frutas</li>
+        <ul>
+            <li>Maçãs</li>
+            <li>Bananas</li>
+        </ul>
+        <li>Verduras
+        <ul>
+            <li>Espinafre</li>
+            <li>Alface</li>
+        </ul>
+        </li>
+    </ul>
+    <!-- Elementos para formatação -->
+    <!-- negrito, italico -->
+    <p>
+    Este <strong>texto é muito importante</strong>, <b>e este aqui também.</b>        
+    </p>
+    <!-- span => tag para estilos de texto sem semantica -->
+    
+    <p>Enfatizar <em>este texto aqui</em>, <i>e este aqui também</i></p>
+    
+    <p><s>preciso riscar este texto</s> e este não</p>
+    
+    <p>Preciso <mark>atenção aqui,</mark>  e aqui não</p>
+    
+    <p>Este <small> texto é menor</small>, este não</p>
+    
+    <p><code>var a = 1; </code></p>
+    
+    <p>e=mc <sup>2</sup> H <sub>2</sub>O</p>
+    
+    
+    <!-- Explicação sobre comentários -->
+    
+    <!-- Este é um comentário
+    com multiplas linhas
+     no meu HTML -->
+     
+     
+     <!-- No TODO: Exibir a imagem 2 -->
+     
+     <!-- Elementos inline e de bloco  -->
+     <!-- Inline = que ficam na mesma linha -->
+     <!-- de Bloco = elementos que pulam linha  -->
+     
+     <p>Elemento de bloco, <strong>mas os elementos de formatação são inline</strong></p>
+     <p>Elemento de bloco, <strong>mas os elementos de formatação são inline</strong></p>
+     
+     <div>Elemento de bloco
+     <div>Elemento também de bloco 
+     </div>
+     Estou na proxima linha 
+     </div>
+     
+    <!-- div -->
+    <!-- elementos que servem para criar "caixas" no nosso site -->
+    <!-- seção, card produto, rodapé -->
+    
+    <div id="cabecalho">
+    <h1>Título da página</h1>
+    </div>
+    
+    <div id="corpo-do-site">
+    <p>Texto 1</p>
+    <p>Texto 2</p>
+    <p>Texto 3</p>
+    </div>
+    
+    <div id="rodapé">
+    <p>Direitos autorais</p>
+    </div>
+     
+     
+    
+    
+    
+    
+    
+    
 </body>
 </html>
